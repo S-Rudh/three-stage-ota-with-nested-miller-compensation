@@ -1,0 +1,19 @@
+# LTspice Simulation Files
+*.raw
+*.log
+*.plt
+*.net
+
+# LTspice Backup and Temporary Files
+*.s#?
+*.b#?
+*.l#?
+*.b$?
+*.s$?
+*.l$?
+*.lck
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
