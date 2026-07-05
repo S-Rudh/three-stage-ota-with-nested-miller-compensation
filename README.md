@@ -32,7 +32,7 @@ The amplifier achieves **90 dB DC gain**, **6.33 MHz unity-gain bandwidth**, and
 | **Input-Referred Noise** | 7.74 nV/√Hz | @ 1 kHz |
 | **PSRR** | 30.86 dB | @ 31.5 kHz |
 | **Power Dissipation** | ~1.5 mW | 500 µA Total |
-| **Monte Carlo (Worst PM)** | 43.23° | 100 Iterations |
+| **Monte Carlo (Worst PM)** | 41.41° | 100 Iterations |
 | **Temperature Range** | -40°C to 85°C | Gain: 76.97 dB @ 85°C |
 
 ---
