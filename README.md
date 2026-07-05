@@ -44,7 +44,7 @@ The amplifier achieves **90 dB DC gain**, **6.33 MHz unity-gain bandwidth**, and
 | **DC Gain & Phase Margin** | 90 dB, 49.91° | ✅ Stable |
 | **PSRR** | 30.86 dB @ 31.5 kHz | ✅ Good |
 | **Input Noise** | 7.74 nV/√Hz @ 1 kHz | ✅ Exceptional |
-| **Monte Carlo** | Worst PM: 43.23° | ✅ Robust |
+| **Monte Carlo** | Worst PM: 41.23° | ✅ Robust |
 | **Temperature Sweep** | 76.97 dB, 30° PM @ 85°C | ⚠️ Marginal at High Temp |
 | **Slew Rate** | 3 V/µs | ✅ Good |
 
