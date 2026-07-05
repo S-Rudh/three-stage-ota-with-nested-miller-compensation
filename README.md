@@ -95,7 +95,8 @@ The amplifier was characterized from -40°C to 85°C. At 85°C, the gain drops t
 │   │   └── 📄 netlist.net
 │   ├── 📁 plots                   # Simulation plots (PNG/PDF)
 │   │   ├── 📄 ac_analysis.png
-│   │   ├── 📄 monte_carlo_analysis.png
+│   │   ├── 📄 monte_carlo_dcgain_variation.png
+│   │   ├── 📄 monte_carlo_line_plot.png
 │   │   ├── 📄 noise_analysis.png
 │   │   ├── 📄 opta.txt
 │   │   ├── 📄 phase_margin.png
