@@ -83,21 +83,28 @@ The amplifier was characterized from -40°C to 85°C. At 85°C, the gain drops t
 ## 📁 Repository Structure
 
 ```
-📁 Three-Stage-OTA-Design
+📁 three-stage-ota-with-nested-miller-compensation
 ├── 📁 docs
+│   └── 📄 Draft3.asc
+│   └── 📄 Draft3.log
+│   └── 📄 Draft3.op.raw
+│   └── 📄 Draft3.raw
 │   └── 📄 schematic.png           # Circuit schematic
-├── 📁 simulations
+├── 📁 sims
 │   ├── 📁 netlists                # LTspice netlist files
-│   │   └── 📄 ota_class_a.net
+│   │   └── 📄 netlist.net
 │   ├── 📁 plots                   # Simulation plots (PNG/PDF)
-│   │   ├── 📄 gain_phase.png
-│   │   ├── 📄 psrr.png
-│   │   ├── 📄 noise.png
-│   │   ├── 📄 monte_carlo.png
-│   │   ├── 📄 temp_sweep.png
-│   │   └── 📄 slew_rate.png
+│   │   ├── 📄 ac_analysis.png
+│   │   ├── 📄 monte_carlo_analysis.png
+│   │   ├── 📄 noise_analysis.png
+│   │   ├── 📄 opta.txt
+│   │   ├── 📄 phase_margin.png
+│   │   └── 📄 psrr.png
+│   │   └── 📄 slew_rate_analysis.png
+│   │   └── 📄 temperature_analysis.png
 │   └── 📁 models                  # BSIM3v3 model files
 │       └── 📄 p35_models_tt.inc
+│       └── 📄 p35_models_ttm.inc
 ├── 📄 README.md                   # This file
 └── 📄 LICENSE                     # MIT License
 ```
