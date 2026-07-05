@@ -44,7 +44,7 @@ The amplifier achieves **90 dB DC gain**, **6.33 MHz unity-gain bandwidth**, and
 | **DC Gain & Phase Margin** | 90 dB, 49.91° | ✅ Stable |
 | **PSRR** | 30.86 dB @ 31.5 kHz | ✅ Good |
 | **Input Noise** | 7.74 nV/√Hz @ 1 kHz | ✅ Exceptional |
-| **Monte Carlo** | Worst PM: 41.23° | ✅ Robust |
+| **Monte Carlo** | Worst PM: 41.41° | ✅ Robust |
 | **Temperature Sweep** | 76.97 dB, 30° PM @ 85°C | ⚠️ Marginal at High Temp |
 | **Slew Rate** | 3 V/µs | ✅ Good |
 
@@ -56,7 +56,7 @@ The amplifier achieves **90 dB DC gain**, **6.33 MHz unity-gain bandwidth**, and
 Nested-Miller compensation was used to stabilize the three-stage amplifier. After initial instability (negative phase margin), the compensation caps were increased to **30 pF each**, achieving **49.91° phase margin**.
 
 ### Monte Carlo Analysis
-100 iterations were performed to validate robustness. The worst-case phase margin was **43.23°**, confirming the design's resilience to process variations.
+100 iterations were performed to validate robustness. The worst-case phase margin was **41.41°**, confirming the design's resilience to process variations.
 
 ### Temperature Sweep
 The amplifier was characterized from -40°C to 85°C. At 85°C, the gain drops to 76.97 dB and the phase margin to 30°, indicating a need for temperature compensation in high-temperature applications.
